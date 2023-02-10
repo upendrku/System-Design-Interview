@@ -80,11 +80,20 @@ as the options to the trader.
 2. Core features
 3. Flexibility
 4. Ease of integration
-5. 55R support
+5. SSR support (Server Side Rendering)
 6. Mobile support
-7. Commu nity
+7. Community
 8. Future support
 9. Market Adoption
+
+## Frontend libraries / frameworks in the market
+React, Angular, and Vue.js are three of the most popular JavaScript libraries for building web applications. While all three libraries can be used to build modern, interactive applications, they have some significant differences that make them better suited for different use cases.
+
+One key difference between these libraries is the way they handle data binding. React uses a unidirectional data flow, meaning that data flows from a parent component to its children, but not the other way around. This can make it easier to manage state in large applications, as it helps to prevent unexpected changes to the data. Angular, on the other hand, uses a two-way data binding system, where changes to the data in a component are reflected in the template and vice versa. This can be more convenient for smaller applications, but can also make it harder to track down bugs in larger applications. Vue.js uses a reactive data model, which allows components to automatically update whenever the data they depend on changes.
+
+Another difference between these libraries is their approach to templating. React uses a declarative syntax called JSX, which allows developers to write HTML-like syntax directly in their JavaScript code. Angular uses a template-based syntax, where developers write templates in HTML and bind data to them using special Angular directives. Vue.js also uses a template-based syntax, but it is more flexible and allows developers to use a mix of template syntax and inline JavaScript if needed.
+
+In terms of size and performance, React tends to be the smallest and fastest of the three libraries. Angular is larger and can have a slightly slower runtime, but it also includes a lot of additional features and functionality that may be useful for larger applications. Vue.js falls somewhere in between, with a smaller size and faster runtime than Angular, but more features and functionality than React.
 
 
 </code>
