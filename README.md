@@ -95,5 +95,22 @@ Another difference between these libraries is their approach to templating. Reac
 
 In terms of size and performance, React tends to be the smallest and fastest of the three libraries. Angular is larger and can have a slightly slower runtime, but it also includes a lot of additional features and functionality that may be useful for larger applications. Vue.js falls somewhere in between, with a smaller size and faster runtime than Angular, but more features and functionality than React.
 
+## Choosing Frotend Technology
+Choosing between React, Angular, and Vue depends on your specific needs and goals as a developer. Here are some points to consider when deciding which of these technologies to use:
+    > If you are building a small or medium-sized application and want a lightweight and easy-to-learn solution, Vue.js may be the best choice.
+    > If you are building a large-scale, enterprise-level application and need a robust and scalable architecture, Angular may be the best choice.
+    > If you are building a web or mobile application and want a powerful and flexible tool for building reusable components, React may be the best choice.
+
+Ultimately, the best choice will depend on your specific project requirements and your personal preferences as a developer. It may be helpful to try out each of these technologies and see which one works best for you.
+
+The future of web development is likely to involve a number of trends and technologies that are already beginning to emerge. Some of the key trends that are likely to shape the future of web development include:
+    > Increased use of artificial intelligence and machine learning: Web developers are likely to use more artificial intelligence and machine learning technologies to build intelligent and interactive websites and applications.
+    > Continued growth of mobile development: As more and more people use their smartphones and tablets to access the internet, web developers will need to focus more on building responsive and mobile-friendly websites and applications.
+    > Increased use of cloud computing: Web developers are likely to rely more on cloud-based services and infrastructure to build and deploy websites and applications, as this allows for more flexibility and scalability.
+    > Increased use of virtual and augmented reality: As virtual and augmented reality technologies become more mainstream, web developers will need to learn how to build applications and experiences for these platforms.
+    > Continued evolution of web design and user experience: Web developers will need to focus on designing and building websites and applications that are user-friendly, intuitive, and visually appealing in order to meet the expectations of users.
+
+Overall, the future of web development is likely to involve the continued evolution and integration of new technologies and approaches that allow developers to build better and more engaging websites and applications.
+
 
 </code>
