@@ -1,0 +1,24 @@
+Please go through all these blog posts:
+
+
+SPA - https://huspi.com/blog-open/definitive-guide-to-spa-why-do-we-need-single-page-applications
+
+PWA - https://web.dev/what-are-pwas/
+
+SEO - https://www.greengeeks.in/blog/html-tags-for-seo/
+
+Open graph - https://ogp.me/
+
+Micro frontend - https://martinfowler.com/articles/micro-frontends.html
+
+Performance - https://medium.com/@inverita/frontend-optimization-8-tips-to-improve-web-performance-29af4b00efe7
+
+Image optimisation - https://www.shopify.in/blog/7412852-10-must-know-image-optimization-tips
+
+i18n - https://www.w3.org/International/questions/qa-i18n
+
+a11y - https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+
+QC - https://whatis.techtarget.com/definition/quality-control-QC
+
+Apple's fluid animations - https://youtu.be/gttSJA-kDmQ
