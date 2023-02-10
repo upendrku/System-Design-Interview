@@ -148,18 +148,18 @@ open graph tags
 ## Open Graph Protocol (ogp.me)
 
 ## Workflow considerations
-> Imagine what the one user will do over the other because everyone tries to do some sort of workflow in the system.
-> After you analyze the workflows and after the happy, happy parts from the product managers, you
-have to sit down and draw some of the diagrams which lead to non happy parts, which may lead to corruptions.
-> Try to think of all the edge cases that can occur.
-> Try to think of the sum of the workflows which are not supported by our system or some of the workflows
-which depend on the upstream or downstream systems
-> Find out the dependencies with the other teams and then trying to figure out if something fails in that particular aspect, in their particular system, what will happen to my system? Is there a proper schema set up between these two systems?
-    + What happens if the schema is invalidated?
-    + What should I do with the schema is invalidated?
-    + Where am I logging all these all these things?
-So all this going to different user workflows, different edge cases.
-> Document everything
+    > Imagine what the one user will do over the other because everyone tries to do some sort of workflow in the system.
+    > After you analyze the workflows and after the happy, happy parts from the product managers, you
+    have to sit down and draw some of the diagrams which lead to non happy parts, which may lead to corruptions.
+    > Try to think of all the edge cases that can occur.
+    > Try to think of the sum of the workflows which are not supported by our system or some of the workflows
+    which depend on the upstream or downstream systems
+    > Find out the dependencies with the other teams and then trying to figure out if something fails in that particular aspect, in their particular system, what will happen to my system? Is there a proper schema set up between these two systems?
+        + What happens if the schema is invalidated?
+        + What should I do with the schema is invalidated?
+        + Where am I logging all these all these things?
+    So all this going to different user workflows, different edge cases.
+    > Document everything
 
 
 </code>
