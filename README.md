@@ -112,5 +112,54 @@ The future of web development is likely to involve a number of trends and techno
 
 Overall, the future of web development is likely to involve the continued evolution and integration of new technologies and approaches that allow developers to build better and more engaging websites and applications.
 
+## Logging Tech stack
+
+## Testing stack
+
+## Sequence Diagram
+
+## SPA vs MPA
+
+## Progressive Web Apps
+Provides offline support and native like functionalities
+Improved performance
+PWA is best of both worlds (Capabilities and Reach)
+Native Apps have better capacilities but less reach whereas Web apps have better reach and low capabilities
+
+## Security Aspects of SPAs
+
+## Platform selection
+Choose the right target for the right impact & returns
+• Are my users on mobile?
+• Is my app an editor?
+• Is my app targeted for business?
+• Do I have resources with the skills needed?
+• Do I need to provide a real-time service? e.g. editor
+• How is the pricing model?
+• Will my app be frontend heavy?
+• Is SPA enough?
+• Is a PWA needed?
+
+## Search Engine Optimization (SEO)
+HTML Tags like meta tags, title tags, semantic HTML
+building links
+open graph tags
+
+## Open Graph Protocol (ogp.me)
+
+## Workflow considerations
+> Imagine what the one user will do over the other because everyone tries to do some sort of workflow in the system.
+> After you analyze the workflows and after the happy, happy parts from the product managers, you
+have to sit down and draw some of the diagrams which lead to non happy parts, which may lead to corruptions.
+> Try to think of all the edge cases that can occur.
+> Try to think of the sum of the workflows which are not supported by our system or some of the workflows
+which depend on the upstream or downstream systems
+> Find out the dependencies with the other teams and then trying to figure out if something fails in that particular aspect, in their particular system, what will happen to my system? Is there a proper schema set up between these two systems?
+    + What happens if the schema is invalidated?
+    + What should I do with the schema is invalidated?
+    + Where am I logging all these all these things?
+So all this going to different user workflows, different edge cases.
+> Document everything
+
 
 </code>
