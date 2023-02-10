@@ -1,3 +1,5 @@
+<code>
+
 ## Angular Framework
 Angular is a JavaScript framework developed by Google that is used to build single-page applications. It was first released in 2010 and has since become one of the most popular frameworks for building web applications. Angular is a full-featured framework that includes everything you need to build an application, including a routing system, a dependency injection system, and a template engine.
 
@@ -63,4 +65,6 @@ In the short term, we can expect to see continued improvements to the performanc
 In the long term, Angular is likely to remain a popular choice for building large-scale, enterprise-level applications, as it provides a robust and scalable architecture for building complex applications with many different components and features.
 
 It is also possible that Angular will continue to evolve and expand into new areas, such as virtual reality and augmented reality applications, as these technologies become more mainstream. So, the future of Angular looks very bright.
+
+</code>
 
