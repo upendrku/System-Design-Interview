@@ -254,4 +254,32 @@ Prioritise the performance improvement tickets in your sprint board if a call ha
     => BEWARE: it may be overkill
 - Caching GET APIs
 
+## Buffer Overflows
+Buffer overflows (overruns) occur when an application does not properly manage access and inappropriately writes to memory.
+- A buffer overflow condition exists when a program attempts to put more data in a buffer than it can hold or when a program attempts to put data in a memory area past a buffer. In this case, a buffer is a sequential section of memory allocated to contain anything from a character string to an array of integers. Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, or cause the execution of malicious code.
+
+Impact:
+A buffer overflow flaw arises when a program does not check the length of data assigned to a variable before storing it on this buffer.
+
+- If we defined an array of char[500], the compiler will allocate 500 bytes on the stack.
+- If the user input exceeds the length of the buffer, say 550 bytes, it may have some unintended impacts on the program. For example:
+- Corruption of other program data (data integrity compromised)
+- Corruption of program control structures (program may end up following unintended paths)
+- Termination of the program (application / system crash)
+In the worst case, an attacker can also craft an input that can execute any arbitrary command on the host outside of the application. This can lead an attacker to take over the computer or worse - the entire network.
+
+## Injection attacks
+- Injection attacks allow an attacker to alter queries (against databases, documents such as XML, etc.) or commands to execute unintended functionality or access protected data
+- There are 2 Types - SQL Injection and OS Command Injection.
+
+## Insecure Cryptographic Storage
+Insecure Cryptographic Storage refers to misconfigurations and errors related to secure / encrypted storage of data
+
+## Encoding
+An alternative representation of data that does not transform the data and provides no confidentiality or access restriction.
+
+## Encryption
+A reversible way of making data secret so it can only be converted back to an understandable form with a known secret value.
+
+
 </code>
