@@ -311,4 +311,36 @@ It is to measure the performance at individual places or points in the actual co
 Event logs
 Handling of events gracefully to make sure that the system is very stable and it is also executing properly and performing as expected.
 
+## Versioning
+Preventing historical versions avoids disasters and helps to rollback.
+Apart from dependencies we need to take care of our own product version.
+Design system such that user is able to roll back or revert to a specific version of a document, 
+It should log user whoever has altered it.
+It's also storing whoever is modifying this document, what is being added?
+What is a diff being created with this document?
+All those metadata is being stored in our database in the logs when this metadata is mapped to certain blob.
+So the actual data will most likely be in the blob and the metadata will most likely be in the in a different database.
+And by storing historical versions, it creates a backup of the artifact.
+
+This also applies for even code.
+Helps in disaster recovery.
+
+## Localization/ Internationalization
+Localization - it talks about adoption of application to meet cultural and other requirements of a specific target market.
+It can entail customization related to numeric data formats, use of currencies, keyboard usages, collision sorting symbols, icons, colors, varying legal requirements and in many cases and text and graphics containing.
+Some countries don't want to display certain graphics based on the countries and their culture.
+We need to define the standards of localization as the developers start working on it.
+Localization may even on the data, comprehensive rethinking of logic, visual design or presentation
+It might affect the way of doing business or the accepted program for learning in a given locale different substantially.
+referred as i10n
+
+Internationalization - internationalisation is the design and development of a product application or document content that enables easy localization. referred as i18n
+
+Consideration:
+This includes such as, enabling the use of Unicode or ensuring the proper handling of legacy characters, encodings where appropriate, taking care of the concentration of string's, avoiding dependency, code and user interface, string values etc. Typically, this involves incorporating predefined localization data and features deriving from existing
+libraries of user preferences.
+
+## Accessibility
+The practice of making your website usuable by as many as possible.
+
 </code>
