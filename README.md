@@ -161,5 +161,82 @@ open graph tags
     So all this going to different user workflows, different edge cases.
     > Document everything
 
+## MVP
+Need to ask which phase of development the application is in?
+It could involve change in architecture, the direction in which we want to proceed or even sometimes the vision.
+NOTE: It is ok to tweak the vision but not completely changed.
+Advanced Features may involve change in architecture. Analyze optimal approaches and how to handle these advanced workflows?
+
+## Identify Service Requirements
+Try to figure out different apis that are needed in the system.
+
+## Volume of operation
+First think about development volume -
+    - How many developers are there?
+    - Their skill sets
+    - component based or micro architecture?
+    - How things can run parallely
+    - How can i make it possible to scale the development in internal development teams?
+Think about team's volume and the end users of your product.
+After understanding the vision you would want to talk to the managers and team leaders to know about scale of operation outside of the team.
+And finally, the scale of operation of the end users.
+
+Ex. If we know about the volume of traffic i am about to get, we can run a stress testing, load testing 
+So even do in order to analyze, you must have some sort of instrumentation built in the MVP itself.
+For example, how many people are loading this page on some sort of analytics need to be there in the MVP itself to make this decision possible.
+ - Helps you to analyze how the users are performing, what kind of workflows that they are doing, what
+ - Kind of things that they are looking at, and the kind of law that you get in your product.
+ - It has to be analyzed for further scaling up.
+
+Create documentation and it should be reviewed.
+You cannot neglect all these things because a lot of feedback will be given based on based on your designs, on your architecture that you have laid down, running through different stakeholders in the system, get their approval and not just a verbal approval.
+
+And it is a characteristics of a good architect to take this valuable feedback and convert it into refined requirements or refined or technical designs.
+
+Collaborating with other stakeholders as well as the product managers is there is a very important factor.
+
+## Performance optimization
+Page load + Smoothness of operation
+
+Smoothness of operation
+Smoothness = UX E.g. Adding animations to avoid jerk/ stutter 
+How analogus your system is?
+Make it appear to be smooth.
+E.g. motion blur like in IOS, navbar hiding with a clear indication where it is hiding
+
+Fast load
+Data prefetch
+caching
+
+Prioritise the performance improvement tickets in your sprint board if a call has not been taken already.
+
+## Techniques to achieve performance optimization
+- Caching
+- Pagination / Infinite scroll
+- SSR Initial data feed
+    => NOTE: In case of SSR the number of API calls increases
+- First contentful paint
+    => Initial data/ content/ placeholders that user sees before the actual content is loaded
+    => The user gets an idea that the page of the page is actually started loading and nothing is stuck
+    => Gives the impression that things are happening so that user will stay on the page.
+    => Grabs user attention
+- First menaningful paint
+    => It is when the actual assets load.
+    => So first meaningful paint is the paint, after which the biggest above the fold layout change has happened and web fonts have loaded.
+    => The page is finally becomes useful.
+- First CPU idle time
+    => The lowest time needed to provide a minimum user interactive ability is the actual first CPU idle time.
+    => It measures how long it takes a page to become minimally interactive.
+    => A page is considered minimally interactive when most but not necessarily all UI elements on the screen are interactive and page responds on average to most user inputs at a reasonable amount of time.
+- Meaningful animations
+
+## Optimizing Images
+- Name your images descriptively in a plane language so that SEO can grab the information about the image and show it at different places.
+- Optimize your alt attributes
+- Choose your image dimensions and product angles wisely. If the images are getting resized this may take time.
+- Use compression techniques
+- Reduce the size of your images to so compression and choose the right file type for those images.
+- Use image site maps, beware of decorative images, use caution while using content delivery networks like CDNs.
+- Make sure that these are appropriately loading.
 
 </code>
