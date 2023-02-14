@@ -239,4 +239,19 @@ Prioritise the performance improvement tickets in your sprint board if a call ha
 - Use image site maps, beware of decorative images, use caution while using content delivery networks like CDNs.
 - Make sure that these are appropriately loading.
 
+## Handling APIs
+- Polling
+    => Data that does not need to 100% real time and can be fetched periodically
+- Web sockets
+    => Real time data fetching
+- Batching of requests
+    => In cases we want to bundle our requests 
+- GraphQL
+    => If BE alread supporting it 
+    => Helps concatinating and segregation of requests on the fly
+    => Reduces number of requests
+    => Helps you determine what you want
+    => BEWARE: it may be overkill
+- Caching GET APIs
+
 </code>
