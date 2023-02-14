@@ -348,25 +348,25 @@ Quality Assurance (QA) is a combination of activities throughout the manufacturi
 Consequently, Quality Control (QC) is a set of processes used to secure that the product meets the quality requirements.
 
 Various levels of testing
-    Git hooks
-    Linters/ static analyzers
-    Unit Testing -> left shift approach (Testing being pushed to developers before right(testers))
-    Workflow testing
-    Same org Integration testing
-    Cross org Integration testing
-    Automation suite - e.g. cypress
+    - Git hooks
+    - Linters/ static analyzers
+    - Unit Testing -> left shift approach (Testing being pushed to developers before right(testers))
+    - Workflow testing
+    - Same org Integration testing
+    - Cross org Integration testing
+    - Automation suite - e.g. cypress
 
 ## Future Roadmap
 A strategic plan that defines a goal or desired outcome
 Product Vision and quaterly plans
-    Serves as a communication tool
-    A high-level document
-    Articulates the strategy
-    Vision needs to be well defined
-    Milestones needs to be called out
-    Every quarter should have a goal
-    Need not consider team capacity
-    It is not a list of features
-    It is not a product backlog
+    - Serves as a communication tool
+    - A high-level document
+    - Articulates the strategy
+    - Vision needs to be well defined
+    - Milestones needs to be called out
+    - Every quarter should have a goal
+    - Need not consider team capacity
+    - It is not a list of features
+    - It is not a product backlog
 
 </code>
