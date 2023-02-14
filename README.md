@@ -289,5 +289,26 @@ So, go through all of the roles that are displayed that are decided for this par
 
 Specifically determine the high level permissions and also the technical low level permissions as well. E.g. who has permission to build, who has permission to approve requests, who has permission to deploy, along with who has permission to use which feature in your project etc.
 
+## Governance
+Controlling the workflow and protecting the assets
+E.g. JIRA processes for code level governance
+Talk with project manager regarding this.
+
+## Instrumentation
+Measurement and tracking are key for a stable system
+
+E.g. logging system
+Properly identify different phases or blocks of modules where the load will hit in run time and implement logging
+so that it can be debugged easily.
+
+Use tracing techniques
+Using tracing technique, we can gather information about code execution at runtime, tracing information can be used for troubleshooting an application after it is deployed. It gives an idea of how the data is flowing, from where the data is flowing and in what stages the data is being affected or in what phases.
+
+When it comes to performance, you might want to add some more tests in the project. 
+Add performance counters wherever it is needed to identify how much time it is taking for one particular workflow to happen or one particular api to respond.
+It is to measure the performance at individual places or points in the actual complete execution.
+
+Event logs
+Handling of events gracefully to make sure that the system is very stable and it is also executing properly and performing as expected.
 
 </code>
