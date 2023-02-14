@@ -281,5 +281,13 @@ An alternative representation of data that does not transform the data and provi
 ## Encryption
 A reversible way of making data secret so it can only be converted back to an understandable form with a known secret value.
 
+## Role Based Management
+Recognize the different types of users who would be using the system, like, for example, system administrators.
+There could be normal administrators, there could be developers, test engineers, other product managers or other team members or different org members.
+
+So, go through all of the roles that are displayed that are decided for this particular product and then finally figure out the different permissions for these roles.
+
+Specifically determine the high level permissions and also the technical low level permissions as well. E.g. who has permission to build, who has permission to approve requests, who has permission to deploy, along with who has permission to use which feature in your project etc.
+
 
 </code>
